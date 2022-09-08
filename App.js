@@ -86,6 +86,15 @@ document.addEventListener("DOMContentLoaded", () => {
     [13, 20, 27, 34],
   ]
 
+  function playSound(){
+    let soundOne = new Audio('sounds/mixkit-small-hit-in-a-game-2072.wav')
+    soundOne.play();
+  }
+
+  function winSound(){
+    let soundTwo = new Audio('sounds/mixkit-thin-metal-card-deck-shuffle-3175.wav')
+    soundTwo.play();
+  }
 
   function winCondition() {
     for (let i = 0; i < winningArrays.length; i++) {
@@ -100,6 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
         token3.classList.contains("playerOne") &&
         token4.classList.contains("playerOne")
       ) {
+        winSound()
         winText.innerHTML = "Player One Wins!";
         document.querySelector ('.winScreen').style.display = 'block'
       }
@@ -110,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
         token3.classList.contains("playerTwo") &&
         token4.classList.contains("playerTwo")
       ) {
+        winSound()
         winText.innerHTML = "Player Two Wins!";
         document.querySelector ('.winScreen').style.display = 'block'
       }
@@ -122,11 +133,13 @@ document.addEventListener("DOMContentLoaded", () => {
         tokens[i + 7].classList.contains("taken") && !tokens[i].classList.contains("taken")
       ) {
         if (currentPlayer == 1) {
+          playSound()
           tokens[i].classList.add("taken");
           tokens[i].classList.add("playerOne");
           currentPlayer = 2;
           displayCurrentPlayer.innerHTML = currentPlayer;
         } else if (currentPlayer == 2) {
+          playSound()
           tokens[i].classList.add("taken");
           tokens[i].classList.add("playerTwo");
           currentPlayer = 1;
