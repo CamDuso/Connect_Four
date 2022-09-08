@@ -1,0 +1,63 @@
+/* Make it look pretty */
+/* 6 x 7 playing space */
+/* Keyframes for tokens dropping into place */
+.title{
+    /* border: solid black; */
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+    text-shadow: -1px -1px 0 #DC3545, 1px -1px 0 #DC3545, -1px 1px 0 #DC3545, 1px 1px 0 #DC3545;
+    text-shadow: -2px -2px 0 #DC3545, 2px -2px 0 #DC3545, -2px 2px 0 #DC3545, 2px 2px 0 #DC3545;
+}
+.tokenContainer {
+    border: solid #09507C;
+    border-width: 10px;
+    border-radius: 10px;
+    width: 50%;
+    height: 90%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .tokenContainer div {
+    border: solid #09507C;
+    border: width 1px;
+    border-radius: 15px;
+    width: 14%;
+    height: 100px;
+    margin: 1px;
+    padding: 5px;
+  }
+  
+  .playerOne {
+    background-color: yellow;
+    border-radius: 10px;
+    /* z-index: 1; */
+  }
+  
+  .playerTwo {
+    background-color: red;
+    border-radius: 10px;
+    /* z-index: 1; */
+  }
+  #hidden{
+    height: 1px;
+    background-color: white;
+    border: solid white;
+  }
+  .winScreen{
+    position: absolute;
+    background-color: rgba(0, 156, 0, 0.801);
+    border: solid rgba(0, 156, 0, 0.801);
+    border-radius: 5px;
+    width: 80%;
+    height: 75%;
+    margin-left: 10%;
+    margin-top: 0%;
+    text-align: center;
+    z-index: 10;
+    display: none;
+  }

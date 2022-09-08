@@ -15,164 +15,85 @@
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleWide.css" />
     </head>
   
   <div class="title">
-    <h1>N O N  -  C O P Y R I G H T - A T T A C H - F O U R </h1></div>
-
-  <div class="gameContainer">
-    
-    <div class="gameBoard">
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a1"></div>    
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot"id="a3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a4"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a5"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a6"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="a7"></div>
-        </div>
-
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b1"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b4"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b5"></div>
-        </div>  
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="b6"></div>
-        </div>
-        <div class="tokenHolder" > 
-            <div class="tokenSlot" id="b7"></div>
-        </div>
-
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c1"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c4"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c5"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="c6"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot " id="c7"></div>
-        </div>
-
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d1"></div>
-        </div>
-        <div class="tokenHolder" > 
-            <div class="tokenSlot" id="d2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d4"></div>
-        </div>  
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d5"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d6"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="d7"></div>
-        </div>
-
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e1"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e4"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e5"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e6"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="e7"></div>
-        </div>
-
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f1"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f2"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f3"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f4"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f5"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f6"></div>
-        </div>
-        <div class="tokenHolder" >
-            <div class="tokenSlot" id="f7"></div>
-        </div>
-
-    </div>
+    <h1>N O N  -  C O P Y R I G H T - A T T A C H - F O U R </h1>
   </div>
 
- <div class="buttonContainer">
-  <div class="tokenButtons">
-    <button type="button" class="btn btn-secondary" id="columnA">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnB">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnC">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnD">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnE">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnF">Drop Token</button>
-    <button type="button" class="btn btn-secondary" id="columnG">Drop Token</button>
+  <h3>It is Currently Player <span id="currentPlayer">1</span>'s Turn</h3>
+
+
+<div class="boardContainer">
+    <div class="winScreen">
+        <div class="winScreenText">
+            <br>
+            <h1 id = "winTitle">Congratulations!</h1>
+            <br>
+            <h2 id = "winText"></h2>
+            <br>
+            <button type="button" class="btn btn-dark" onclick="window.location.reload();"></a>Play Again</button>
+        </div>
+    </div>
+  <div class="tokenContainer">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
+    <div class="taken" id = 'hidden'></div>
   </div>
 </div>
-
-
-
 
   <body>
     <script src="App.js"></script>
