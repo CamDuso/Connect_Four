@@ -1,9 +1,9 @@
-/* Make it look pretty */
-/* 6 x 7 playing space */
-/* Keyframes for tokens dropping into place */
+/* *{
+    background-color: lemonchiffon;
+} */
 
 .title{
-    font-size: 35px;
+    font-size: 30px;
     border: solid #09507C;
     border-radius: 10px;
     background-color: #09507C;
@@ -20,9 +20,9 @@
     background-color: none;
     border-width: 10px;
     border-radius: 10px;
-    width: 50%;
+    width: 60%;
     height: 70%;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 5%;
     display: flex;
     flex-flow: wrap;
@@ -34,7 +34,7 @@
     border: solid #09507C;
     border: width 1px;
     border-radius: 10%;
-    width: 14%;
+    width: 13.2%;
     height: 16.4%;
     margin: 1px;
     padding: 5px;
@@ -44,10 +44,8 @@
     border: width 1px;
     border-radius: 10%;
     background-color: lightgrey;
-    width: 14%;
-    height: 16.4;
-    margin: 1px;
-    padding: 5px;
+    width: 13.2%;
+    height: 16.4%;
   }
   
   
@@ -69,24 +67,24 @@
     background-color: rgba(2, 190, 2, 0.9);
     border: solid rgba(0, 130, 0, 0.9);
     border-radius: 5px;
-    width: 70%;
-    height: 85%;
-    margin-left: 15%;
-    margin-top: 2%;
+    width: 65%;
+    height: 75%;
+    margin-left: 17.5%;
+    margin-top: 3%;
     text-align: center;
     z-index: 10;
     display: none;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   }
   .turnOrder{
-    font-size: 25px;
+    font-size: 20px;
     border: solid #09507C;
     border-radius: 10px;
     padding: .5%;
     position: absolute;
-    width: fit-content;
+    width: 25%;
     height: fit-content;
-    margin-left: 5%;
-    margin-top: 10%;
+    margin-left: 37.5%;
+    margin-top: 145%;
     text-align: center;
   }

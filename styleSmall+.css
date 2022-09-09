@@ -1,6 +1,6 @@
-/* Make it look pretty */
-/* 6 x 7 playing space */
-/* Keyframes for tokens dropping into place */
+/* *{
+    background-color: lemonchiffon;
+} */
 
 .title{
     font-size: 35px;
@@ -34,8 +34,8 @@
     border: solid #09507C;
     border: width 1px;
     border-radius: 10%;
-    width: 14%;
-    height: 16.4%;
+    width: 12.8%;
+    height: 16%;
     margin: 1px;
     padding: 5px;
   }
@@ -44,8 +44,8 @@
     border: width 1px;
     border-radius: 10%;
     background-color: lightgrey;
-    width: 14%;
-    height: 16.4;
+    width: 13.9%;
+    height: 16%;
     margin: 1px;
     padding: 5px;
   }
@@ -69,9 +69,9 @@
     background-color: rgba(2, 190, 2, 0.9);
     border: solid rgba(0, 130, 0, 0.9);
     border-radius: 5px;
-    width: 70%;
-    height: 85%;
-    margin-left: 15%;
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
     margin-top: 2%;
     text-align: center;
     z-index: 10;
@@ -87,6 +87,6 @@
     width: fit-content;
     height: fit-content;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 11%;
     text-align: center;
   }
