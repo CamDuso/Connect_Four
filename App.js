@@ -9,11 +9,21 @@
 
 // If No winners are declared by the time the board is full, then a "Game Over" message will display, also prompting players to play "New Game
 
+const instructions = document.querySelector (".instructions");
+
+function displayInstructions(){
+  instructions.style.display = 'block'
+}
+
+
+function hideInstructions(){
+  instructions.style.display = 'none'
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const tokens = document.querySelectorAll(".tokenContainer div");
   const displayCurrentPlayer = document.querySelector("#currentPlayer");
   let currentPlayer = 1;
-
   const winningArrays = [
     [0, 1, 2, 3],
     [41, 40, 39, 38],
@@ -87,12 +97,12 @@ document.addEventListener("DOMContentLoaded", () => {
   ]
 
   function playSound(){
-    let soundOne = new Audio('sounds/mixkit-small-hit-in-a-game-2072.wav')
+    const soundOne = new Audio('sounds/mixkit-small-hit-in-a-game-2072.wav')
     soundOne.play();
   }
 
   function winSound(){
-    let soundTwo = new Audio('sounds/mixkit-thin-metal-card-deck-shuffle-3175.wav')
+    const soundTwo = new Audio('sounds/mixkit-thin-metal-card-deck-shuffle-3175.wav')
     soundTwo.play();
   }
 
@@ -146,9 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
           displayCurrentPlayer.innerHTML = currentPlayer;
         }
       } else alert("Placement not allowed");
-      
       winCondition();
-
       }
     };
 });

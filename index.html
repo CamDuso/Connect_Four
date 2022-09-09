@@ -42,8 +42,19 @@
   <div class="title">
     N O N  -  C O P Y R I G H T - A T T A C H - F O U R
   </div>
-<div class="turnOrder">
-  It is <br> Currently<br> Player <span id="currentPlayer">1</span>'s <br>Turn
+
+<div class="instructionButton">
+  <button onclick= 'displayInstructions()' >How to Play</button>
+</div>
+
+<div class="instructions">
+  This is a turn based game, where yellow will go first and red will go second. <br><br>
+  Players must alternate turns, and only one token can be dropped in each turn. <br><br>
+  On your turn, click on the slot where you would like to place your token, the square selected must be at the bottom of the board, or on top of another token that has already been placed. A token placed cannot overlap a slot that has already been taken by the opposing player. <br><br>
+  The game ends when there is a four in a row of the same color. <br><br>
+  Whoever played as yellow in the first game will be red for the second game. <br>
+
+  <button onclick= "hideInstructions()">Close</button>
 </div>
 
 
@@ -125,9 +136,12 @@
   </div>
 </div>
 
-  <body>
+<div class="turnOrder">
+  It is <br> Currently<br> Player <span id="currentPlayer">1</span>'s <br>Turn
+</div>
 
-    <!-- <audio id="select" src="sounds/synthetic-select.wav"></audio> -->
+
+  <body>
 
     <script src="App.js"></script>
     <script
