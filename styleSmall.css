@@ -1,30 +1,28 @@
-/* *{
-    background-color: lemonchiffon;
-} */
-
+* {
+  background-color: #edddd4;
+}
 .title {
-  font-size: 32px;
-  border: solid #09507c;
+  font-size: 35px;
+  border: solid #197278;
   border-radius: 10px;
-  background-color: #09507c;
+  background-color: #197278;
   text-align: center;
-  margin-top: 1%;
-  margin-left: 5%;
-  width: 90%;
+  padding-top: 1%;
+  width: 100%;
   color: white;
-  text-shadow: -1px -1px 0 #dc3545, 1px -1px 0 #dc3545, -1px 1px 0 #dc3545,
-    1px 1px 0 #dc3545;
-  text-shadow: -2px -2px 0 #dc3545, 2px -2px 0 #dc3545, -2px 2px 0 #dc3545,
-    2px 2px 0 #dc3545;
+  text-shadow: -1px -1px 0 #772e25, 1px -1px 0 #772e25, -1px 1px 0 #772e25,
+    1px 1px 0 #772e25;
+  text-shadow: -2px -2px 0 #772e25, 2px -2px 0 #772e25, -2px 2px 0 #772e25,
+    2px 2px 0 #772e25;
 }
 .tokenContainer {
-  border: solid #09507c;
+  border: solid #283d3b;
   background-color: none;
   border-width: 10px;
   border-radius: 10px;
-  width: 60%;
+  width: 50%;
   height: 70%;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 5%;
   display: flex;
   flex-flow: wrap;
@@ -36,8 +34,8 @@
   border: solid #09507c;
   border: width 1px;
   border-radius: 10%;
-  width: 13.2%;
-  height: 16.4%;
+  width: 13%;
+  height: 15%;
   margin: 1px;
   padding: 5px;
 }
@@ -46,17 +44,22 @@
   border: width 1px;
   border-radius: 10%;
   background-color: lightgrey;
-  width: 13.2%;
-  height: 16.4%;
+  width: 13%;
+  height: 15%;
+  margin: 1px;
+  padding: 5px;
+}
+.white {
+  background-color: white;
 }
 
 .playerOne {
-  background-color: yellow;
+  background-color: #c4a137;
   /* z-index: 1; */
 }
 
 .playerTwo {
-  background-color: red;
+  background-color: #772e25;
   /* z-index: 1; */
 }
 #hidden {
@@ -65,33 +68,45 @@
 }
 .winScreen {
   position: absolute;
-  background-color: rgba(2, 190, 2, 0.9);
-  border: solid rgba(0, 130, 0, 0.9);
+  background-color: rgba(25, 120, 82, 0.9);
+  border: solid rgba(25, 120, 82, 0.9);
   border-radius: 5px;
-  width: 65%;
-  height: 75%;
-  margin-left: 17.5%;
-  margin-top: 3%;
+  width: 70%;
+  height: 80%;
+  margin-left: 15%;
+  margin-top: 2%;
   text-align: center;
   z-index: 10;
   display: none;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
 }
+.winScreenText {
+  background-color: rgba(2, 190, 2, 0);
+}
+#winTitle,
+#winText {
+  background-color: rgba(2, 190, 2, 0);
+}
 .turnOrder {
   font-size: 20px;
-  border: solid #09507c;
+  border: solid #283d3b;
   border-radius: 10px;
   padding: 0.5%;
-  position: relative;
-  width: 40%;
-  height: fit-content;
-  margin-left: 30%;
-  margin-top: 160%;
+  position: absolute;
+  width: 60%;
+  height: 5%;
+  margin-left: 20%;
+  margin-top: 145%;
   text-align: center;
 }
+.instructionButton {
+  justify-content: center;
+  display: flex;
+  padding-top: 1%;
+}
 .instructions {
-  border: solid #09507c;
+  border: solid #283d3b;
   text-align: center;
   font-size: 20px;
   color: black;
