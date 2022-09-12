@@ -1,13 +1,12 @@
 
-<!-- Connect Four -->
-<!-- Straightforward setup, get 4 of the same color in a row, column or diagonal and "you win" -->
-<!-- Separate inputs for red/yellow  -->
-
-<!-- Make it look pretty
+Connect Four
+ Straightforward setup, get 4 of the same color in a row, column or diagonal and "you win" -->
+ Separate inputs for red/yellow  
+ Make it look pretty
  6 x 7 playing space
- Keyframes for tokens dropping into place -->
+ Keyframes for tokens dropping into place
 
-<!-- Game Initialization
+ Game Initialization
 
 Yellow will go first
 On turn, yellow will pick a slot to place their token
@@ -17,6 +16,7 @@ Red will follow the same steps, ensuring tokens fall to the "floor" of the gameb
 Repeat until Either red or yellow has 4 in a row, displaying a "____ Wins!" Message on screen, as well as a "New Game" Button
 
 If No winners are declared by the time the board is full, then a "Game Over" message will display, also prompting players to play "New Game -->
+
 
 --Rules--
 
