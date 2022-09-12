@@ -1,6 +1,7 @@
 
 Connect Four
- Straightforward setup, get 4 of the same color in a row, column or diagonal and "you win" -->
+<br>
+ Straightforward setup, get 4 of the same color in a row, column or diagonal and "you win"
  Separate inputs for red/yellow  
  Make it look pretty
  6 x 7 playing space
