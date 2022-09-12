@@ -31,6 +31,7 @@ tokens will be placed to the bottom of their respective column, and tokens canno
 winner is decided once a player gets 4 of their color in a straight line, horizontal, vertical or diagonal. <br>
 
 --Built With-- <br>
+
 HTML <br>
 CSS <br>
 Javascript <br>
